@@ -1,0 +1,46 @@
+/*Estilo do site Cores*/
+
+body { background-color: #FFFFFF ;color: black; font-family: Verdana; font-size: 14px;}
+
+/*CABEÇALHO*/
+header {background-color: #6546E0;color: rgb(0, 0, 0); padding: 10px;}
+h1 { font-size: 30px;}
+.bloco1 { display: inline-block;}
+strong {color: #ffffff;} 
+    /*links*/
+        a:link{color: #f4f4f4;}
+        a:visited {color: black;}
+        a:hover {color: cyan;}
+    /*listas*/
+        ul.principal {margin: 36px 0 0 0;padding: 0; list-style: none;}
+        li.emLinha {display: inline;padding: 0;margin: 0 16px 0 0;}
+        ul.oculto {visibility: hidden;position: absolute;background: #6546E0;border: solid 1px #000;border-radius: 5px;list-style: none;
+        padding: 5px 10px;margin-left: 60px;opacity: 0;transform: translateY(-10px);transition: opacity 0.2s, transform 0.3s;}   
+        li.emLinha:hover ul.oculto {visibility: visible;opacity: 1;transform: translateY(0);} 
+        ul.oculto li {padding: 5px 0;}    
+        ul.oculto a {color: white;}
+        ul.oculto a:hover {color: cyan;}
+        li.emLinha a span {color: cyan;font-size: 14px;display: inline-block;transform: rotate(0deg);transition: transform 0.3s;}
+        li.emLinha:hover a span {transform: rotate(-180deg);}
+
+/* CORPO DA PÁGINA */
+h2{font-size: 24px; text-align: center;}
+main p{text-align: justify;}
+    /*formulário (contato)*/
+        section.container {max-width: 800px; text-align: center; padding: 20 px; margin: 0 auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
+    /*paginas exceto "contato"*/
+        div.corpo {max-width: 800px; margin: 0 auto;   padding: 20px; background-color: #fff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px;}
+    /*imagens de fundo*/
+        .inverno {background-image: url("paisageminverno.png"); background-repeat: no-repeat;background-attachment: scroll; background-size: cover;}
+        .outono {background-image: url("paisagemoutono.png"); background-repeat: no-repeat;background-attachment: scroll; background-size: cover;}
+        .primavera {background-image: url("paisagemprimavera.png"); background-repeat: no-repeat;background-attachment: scroll; background-size: cover;}
+        .verao {background-image: url("paisagemverao.png"); background-repeat: no-repeat;background-attachment: scroll; background-size: cover;}
+
+/*outra opção de cor para o background do rodapé: #E04652*/
+
+/*RODAPÉ*/
+footer{background-color: cyan; margin: 0 auto; text-align:center; padding: 10px;}
+
+
+
+    
